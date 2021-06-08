@@ -3,3 +3,15 @@ Arithmetic Operators
 ** Exponentiations
 // Floor divison
 
+Assignment Operators
++=
+-=
+*=
+/=
+%=
+**=
+//=
+
+Data Types
+int
+float
