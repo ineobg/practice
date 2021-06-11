@@ -98,7 +98,19 @@ str.split(sep, maxsplit)
 
 \n line break
 verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+>>> print(verse.find('and')) / print(verse.index('and'))
+65
+>>> print(verse.rfind('you')) / print(verse.rindex('you'))
+186
+>>> print(verse.count('you'))
+8
 
+
+Practice
+HackerRank
+https://www.hackerrank.com/domains/python
+codewars
+https://www.codewars.com/users/sign_in
 
 
 
