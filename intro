@@ -1,7 +1,22 @@
+The Python Tutorial
+https://docs.python.org/3/tutorial/index.html
+
+PEP 8 -- Style Guide for Python Code 
+https://www.python.org/dev/peps/pep-0008/
+Autoformat for Sublime
+https://packagecontrol.io/packages/Python%20PEP8%20Autoformat
+
+
+Functions
+print()
+len()
+
+
 Arithmetic Operators
 % Modulus
 ** Exponentiations
 // Floor divison
+
 
 Assignment Operators
 +=
@@ -12,6 +27,82 @@ Assignment Operators
 **=
 //=
 
-Data Types
+
+Data Types (variable values)
 int
 float
+>>> print(type(y))
+float
+
+bool
+Comparison Operators
+< > == <= >= !=
+Logical Operators
+and or not
+
+str '" \' "'
+>>> print(first_word + ' ' + second_word)
+>>> print(first_word * 5)
+>>> print(len(first_word))
+Indexing
+>>> first_word[0]
+
+
+Type (Conversion)
+>>> print(type(633))
+int
+>>> print(type(633.))
+float
+>>> print(type('633'))
+str
+>>> print(type(True))
+bool
+
+count = 633.
+>>> print(type(count))
+float
+
+count = str(count)
+>>> print(type(count))
+string
+>>> print(count * 2)
+633.0633.0
+
+>>> print(type(len(count)))
+int
+
+
+Methods
+Depend on object data type
+Called using dot notation
+
+String Methods
+count = 'six'
+>>> count.islower()
+True
+>>> count.find('i')
+1
+#Takes an additional argument in ()
+
+who = 'you'
+times = 1000
+>>> print('I love {} {}'.format(who, times))
+I love you 1000
+my_string = 'I love {} {}'
+>>> print(my_string.format('you', 1000))
+I love you 1000
+
+str.split(sep, maxsplit)
+>>> print(my_string.split)
+['I', 'love']
+
+\n line break
+verse = "If you can keep your head when all about you\n  Are losing theirs and blaming it on you,\nIf you can trust yourself when all men doubt you,\n  But make allowance for their doubting too;\nIf you can wait and not be tired by waiting,\n  Or being lied about, don’t deal in lies,\nOr being hated, don’t give way to hating,\n  And yet don’t look too good, nor talk too wise:"
+
+
+
+
+
+
+
+
