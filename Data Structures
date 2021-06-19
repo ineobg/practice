@@ -1,0 +1,39 @@
+Lists
+>>> my_list[len(my_list)-1]
+= [-1] index
+Slicing
+q3 = months[6:9]
+lower bound is inclusive, upper exclusive
+Shortcuts
+[:6] [6:]
+
+Membership operators
+VINIX = ['C', 'MA', 'BA', 'PG', 'CSCO', 'VZ', 'PFE', 'HD', 'INTC', 'T', 'V', 'UNH', 'WFC', 'CVX', 'BAC', 'JNJ', 'GOOGL', 'GOOG', 'BRK.B', 'XOM', 'JPM', 'FB', 'AMZN', 'MSFT', 'AAPL']
+'GE' in VINIX
+>>> False
+'GOOGL' in VINIX
+>>> True
+
+Mutability - object value can be modified after creating
+months[3] = 'Friday'
+Strings are immutable
+Lists and strings are ordered - zero-based indexing works
+
+List functions
+len()
+min()
+max()
+sorted()
+
+List methods
+Join takes a list of strings as an argument, and returns a string consisting of the list elements joined by a separator string
+>>> print('-'.join(['hello', 'world']))
+hello-world
+new_str = '\n'.join(['hello', 'world'])
+>>> new_str
+hello
+world
+new_list = new_str.split()
+new_list.append('and bb')
+print(' '.join(sorted(new_list)))
+and bb hello world
